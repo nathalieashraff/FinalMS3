@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Applications</title>
+  <link rel="stylesheet" href="../assets/vendor/animate/animate.css">
+  <link rel="stylesheet" href="../assets/css/bootstrap.css">
+  <link rel="stylesheet" href="../assets/css/maicons.css">
+  <link rel="stylesheet" href="../assets/vendor/owl-carousel/css/owl.carousel.css">
+  <link rel="stylesheet" href="../assets/css/theme.css">
+  <style>
+    /* Rest of the CSS styles */
+    ul {
+      list-style-type: none;
+    }
+    
+    li {
+      padding: 10px;
+      border: 1px solid #ccc;
+      margin-bottom: 10px;
+    }
+    
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f3f3f3;
+      color: #333333;
+    }
+
+    h2 {
+      color: #6a0dad;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    .application-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+    }
+
+    .application-card {
+      padding: 20px;
+      border-radius: 15px;
+      color: #ffffff;
+      margin-bottom: 10px;
+     
+
+    }
+
+    .purple-container {
+      background-color: #a675e3;
+      margin-bottom: 100x;
+    }
+
+    .white-container {
+      background-color: #a7a0a0;
+    }
+
+    .application-card span {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    .application-card button {
+      margin-top: 10px;
+      padding: 5px 10px;
+      background-color: #6a0dad;
+      color: #ffffff;
+      border: none;
+      border-radius: 10px;
+      
+    }
+    text-container {
+  padding: 20px;
+}
+
+.text-content {
+  font-size: 18px;
+  color: #6a0dad;
+  line-height: 1.5;
+}
+  </style>
+</head>
+<body>
+  <!-- Rest of the HTML content -->
+ <!-- Back to top button -->
+ <div class="back-to-top"></div>
+
+ <header>
+  <nav class="navbar navbar-expand-lg navbar-light navbar-float">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">
+        <style>
+            .logo-image {
+            max-width: 150px;
+            max-height: 150px;
+            }
+
+        </style>
+        <img src="../assets/img/logo.jpeg" alt="Logo" class="logo-image">
+      </a>
+  
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="navbar-collapse collapse" id="navbarContent">
+        <ul class="navbar-nav ml-lg-4 pt-3 pt-lg-0">
+          <li class="nav-item active">
+            <a href="mainBanker.html" class="nav-link">Home</a>
+          </li>
+         
+          <li class="nav-item">
+            <a href="services.html" class="nav-link">Notifications</a>
+          </li>
+        </ul>
+  
+        <div class="ml-auto">
+          <a href="index.html" class="btn btn-outline rounded-pill">Sign Out</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  </header>
+  <main>
+    <h2>Account & Card Applications</h2>
+
+    <div class="application-grid">
+      <!-- Account Applications -->
+      <div class="purple-container">
+        <div class="application-card">
+          <span>Name: John Smith</span>
+          <span>Application Number: 123456789</span>
+          <span>Account Type: Savings Account</span>
+          <span>Date: May 15, 2023</span>
+          <button onclick="acceptRequest()">Accept</button>
+          <button onclick="rejectRequest()">Reject</button>
+        </div>
+        <div class="application-card">
+            <span>Name: Sarah Johnson</span>
+            <span>Application Number: 987654321</span>
+            <span>Account Type: Checking Account</span>
+            <span>Date: May 20, 2023</span>
+            <button onclick="acceptRequest()">Accept</button>
+            <button onclick="rejectRequest()">Reject</button>
+          </div>
+      </div>
+
+      <!-- Card Applications -->
+    
+      <div class="white-container">
+        <div class="application-card">
+          <span>Name: Emily Johnson</span>
+          <span>Application Number: 987654321</span>
+          <span>Card Type: Credit Card</span>
+          <span>Date: April 28, 2023</span>
+          <span>Credit Limit Requested: $5,000</span>
+          <button onclick="acceptRequest()">Accept</button>
+          <button onclick="rejectRequest()">Reject</button>
+        </div>
+        
+        <div class="application-card">
+            <span>Name: Michael Brown</span>
+            <span>Application Number: 987123654</span>
+            <span>Card Type: Debit Card</span>
+            <span>Date: May 10, 2023</span>
+            <button onclick="acceptRequest()">Accept</button>
+            <button onclick="rejectRequest()">Reject</button>
+          </div>
+      </div>
+
+      <!-- Add more applications here... -->
+    </div>
+
+    </div>
+
+
+  </div>
+
+    <script>
+      function acceptRequest() {
+        alert("Request accepted successfully.");
+      }
+
+      function rejectRequest() {
+        alert("Request rejected.");
+      }
+    </script>
+  </main>
