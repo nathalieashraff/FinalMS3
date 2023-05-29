@@ -113,8 +113,8 @@ button[type="submit"]:hover {
         <a href="index.html" class="navbar-brand">
           <style>
               .logo-image {
-              max-width: 150px;
-              max-height: 150px;
+              max-width: 100px;
+              max-height: 200px;
               }
 
           </style>
@@ -226,6 +226,11 @@ button[type="submit"]:hover {
   .purple-button:hover {
     opacity: 0.8;
   }
+  .popup {
+    display: none;
+    text-align: center;
+    margin-top: 20px;
+  }
     </style>
     
     <div class="message" id="message"></div>
@@ -235,9 +240,9 @@ button[type="submit"]:hover {
   
   <script>
     function showPopup() {
-  const popup = document.getElementById("popup");
-  popup.style.display = "block";
-}
+    const popup = document.getElementById("popup");
+    popup.style.display = "block";
+  }
 
 function activateCard() {
   const message = document.getElementById("message");
