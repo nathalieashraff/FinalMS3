@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta name="copyright" content="MACode ID, https://macodeid.com">
+
+  <title>Transfer Money</title>
+
+  <link rel="stylesheet" href="../assets/vendor/animate/animate.css">
+
+  <link rel="stylesheet" href="../assets/css/bootstrap.css">
+
+  <link rel="stylesheet" href="../assets/css/maicons.css">
+
+  <link rel="stylesheet" href="../assets/vendor/owl-carousel/css/owl.carousel.css">
+
+  <link rel="stylesheet" href="../assets/css/theme.css">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light navbar-float">
+        <div class="container">
+          <a href="index.html" class="navbar-brand">
+            <style>
+                .logo-image {
+                max-width: 100px;
+                max-height: 100px;
+                }
+
+            </style>
+            <img src="C:\Users\Nathalie Ashraf\Music\FinalMS3\assets\img\logo.png" alt="Logo" class="logo-image">
+          </a>
+      
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <div class="navbar-collapse collapse" id="navbarContent">
+            <ul class="navbar-nav ml-lg-4 pt-3 pt-lg-0">
+              <li class="nav-item active">
+                <a href="user-home.html" class="nav-link">Home</a>
+              </li>
+              <!-- <li class="nav-item">
+                <a href="about.html" class="nav-link">About Us</a>
+              </li> -->
+              <li class="nav-item">
+                <a href="services.html" class="nav-link">Notifications</a>
+              </li>
+            </ul>
+      
+            <div class="ml-auto">
+              <a href="index.html" class="btn btn-outline rounded-pill">Sign Out</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      
+<div class="page-section border-top">
+  
+    <div class="container">
+        <div class="text-center wow fadeInUp">
+            <h2 class="title-section" style="margin-top: 20px;"> Internal Transfer </h2>
+            <div class="divider mx-auto"></div>
+          </div>
+          
+          
+            <div class="container">
+
+              <hr>
+              
+
+              <form id="app-form" action="">
+              <fieldset class="sub-container" id="basic-details">
+                <style>
+                  .select{
+                      padding: 8px 12px;
+                      color: #333333;
+                      background-color: #eeeeee;
+                      border: 1px solid #dddddd;
+                      cursor: pointer;
+                  }
+
+                  .select:focus,
+                  .select:hover{
+                      outline: none;
+                      border: 1px solid #bbbbbb;
+                  }
+
+                  .input {
+                      border: none;
+                      border-bottom: 1px solid #D1D1D4;
+                      background: none;
+                      padding: 6px;
+                      padding-left: 20px;
+                      font-weight: 2;
+                      width: 75%;
+                      transition: .2s;
+                    }
+              </style>
+                <h4 class="sub-heading" style="margin-top: 20px;" >Transfer Details</h4>
+                <hr>
+                
+                
+                <label for="accounttype" class="standard-label" style="color:#603FEF ;font-weight:500;">
+                    From<span class="required">*</span>
+                    <br>
+                    <select  id="account-select" class="select" required>
+                        <option  disabled selected>  Select Account Number</option>
+                      <option value="select" >1008546711</option>
+                      <option value="basic-current">100768904</option>
+                      <option value="premium-current">2098513311 </option>
+                      
+                      
+                    </select>
+                  </label>
+                  <br>
+                  <br>
+                  
+
+
+                  <label for="National-id" class="standard-label" style="color:#603FEF ;font-weight:500;">
+                    To<span class="required">*</span>
+                    <br>
+                    <input class="input" type="nationalid" id="nationalid" name="nationalid" pattern='^\+?\d{10,12}' placeholder="Account Number" required>
+                  </label>
+                  <br>
+                  <br>
+
+                 
+
+                  <label for="middlenames" class="standard-label" style="color:#603FEF ;font-weight:500;">
+                    Receiver Name 
+                    <input class="input" name="middlename" id="middlename" type="text" placeholder="Receiver...">
+                  </label>
+                  <br>
+                  <br>
+
+                  <label for="phone-number" class="standard-label" style="color:#603FEF ;font-weight:500;">
+                    Amount in EGP<span class="required">*</span>
+                    <input class="input" type="tel" id="phone" name="phone" pattern='^\+?\d{10,12}' placeholder="00.00" required>
+                  </label>
+                  <br>
+                  <br>
+
+                  <label for="email-address" class="standard-label" style="color:#603FEF ;font-weight:500;">
+                    Reason for Transfer<span class="required"></span>
+                    <br>
+                    <input class="input" type="reason" id="reason" name="reason" pattern='^\+?\d{10,12}' placeholder="Reason for Transfer..." required>
+                  </label>
+                  <br>
+
+                  
+
+                  <!-- <button type="button" id="show-address">Continue</button> -->
+               
+                  <style>
+                    /* Container for centering the button */
+                    .center-container {
+                      display: flex;
+                      justify-content: center;
+                      align-items: center;
+                      height: 8vh; /* Adjust the height as needed */
+                    }
+                  </style>
+                  
+                  <div class="center-container">
+                    <a href="ConfirmTransfer.html" class="btn btn-primary btn-split ml-2">Next <div class="fab"><span class="mai-arrow-forward"></span></div></a>
+                  </div>
+                  
+
+               
+
+
+                </fieldset>
+              </form>
+            </div>
+          </body>
+          </html>
+  </body>
+  

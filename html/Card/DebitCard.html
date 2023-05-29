@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta name="copyright" content="MACode ID, https://macodeid.com">
+
+  <title>Debit Card</title>
+
+  <link rel="stylesheet" href="../assets/vendor/animate/animate.css">
+
+  <link rel="stylesheet" href="../assets/css/bootstrap.css">
+
+  <link rel="stylesheet" href="../assets/css/maicons.css">
+
+  <link rel="stylesheet" href="../assets/vendor/owl-carousel/css/owl.carousel.css">
+
+  <link rel="stylesheet" href="../assets/css/theme.css">
+
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light navbar-float">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">
+        <style>
+            .logo-image {
+            max-width: 100px;
+            max-height: 100px;
+            }
+
+        </style>
+        <img src="C:\Users\Nathalie Ashraf\Music\FinalMS3\assets\img\logo.png" alt="Logo" class="logo-image">
+      </a>
+  
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="navbar-collapse collapse" id="navbarContent">
+        <ul class="navbar-nav ml-lg-4 pt-3 pt-lg-0">
+          <li class="nav-item active">
+            <a href="user-home.html" class="nav-link">Home</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a href="about.html" class="nav-link">About Us</a>
+          </li> -->
+          <li class="nav-item">
+            <a href="services.html" class="nav-link">Notifications</a>
+          </li>
+        </ul>
+  
+        <div class="ml-auto">
+          <a href="index.html" class="btn btn-outline rounded-pill">Sign Out</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+<div class="page-section border-top">
+  
+    <div class="container">
+        <div class="text-center wow fadeInUp">
+            <h2 class="title-section" style="margin-top: 20px;"> Debit Card Request</h2>
+            <div class="divider mx-auto"></div>
+          </div>
+          
+          <div class="container">
+            <form id="app-form" action="">
+                <style>
+                    .select{
+                        padding: 8px 12px;
+                        color: #333333;
+                        background-color: #eeeeee;
+                        border: 1px solid #dddddd;
+                        cursor: pointer;
+                    }
+
+                    .select:focus,
+                    .select:hover{
+                        outline: none;
+                        border: 1px solid #bbbbbb;
+                    }
+                </style>
+                <label for="accounttype" class="standard-label" style="color:#603FEF ;font-weight:500;">
+                  Select Account Number<span class="required">*</span>
+                  
+                  <select  id="account-select" class="select" required>
+                      <option  disabled selected>  Select Account Number</option>
+                    <option value="select" >1008546711</option>
+                    <option value="basic-current">100768904</option>
+                    <option value="premium-current">2098513311 </option>
+                    
+                    
+                  </select>
+                </label>
+                <br>
+                <br>
+
+                <label for="accounttype" class="standard-label" style="color:#603FEF ;font-weight:500;">
+                  Card Type<span class="required">*</span>
+                  
+                  <select  id="account-select" class="select" required>
+                      <option disabled selected> Card Type</option>
+                    <option value="select">Visa</option>
+                    <option value="basic-current">MasterCard</option>
+                    <option value="premium-current">Meeza</option>
+                    
+                    
+                  </select>
+                </label>
+                <br>
+                <br>
+
+              
+              
+                <style>
+                  /* Container for centering the button */
+                  .center-container {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 8vh; /* Adjust the height as needed */
+                  }
+                </style>
+                
+                <style>
+                  .success-message {
+                    display: none;
+                    background: #f3f3f3;
+                    padding: 10px;
+                    text-align: center;
+                    margin-top: 10px;
+                  }
+                
+                  #submit-checkbox:checked ~ .success-message {
+                    display: block;
+                  }
+                </style>
+                
+                <div class="center-container">
+                  <label for="submit-checkbox" class="btn btn-primary btn-split ml-2">Submit <div class="fab"><span class="mai-send"></span></div></label>
+                  <input type="checkbox" id="submit-checkbox" style="display: none;">
+
+                  <br>
+                  <div class="success-message">Your request has been submitted successfully! <br> Confirmation will be sent within 24 hours.</div>
+                </div>
+
+            </form>
+          </div>
+
+          <hr> 
+
+          <div class="page-section">
+            <div class="container">
+              <div class="text-center wow fadeInUp">
+                <h2 class="title-section">Your <span class="marked">Ultimate</span> Shopping Experience</h2>
+                <div class="divider mx-auto"></div>
+              </div>
+        
+              <div class="row mt-5 text-center">
+                <div class="col-lg-4 py-3 wow fadeInUp">
+                  <div class="display-3"><span class="mai-card"></span></div>
+                  <h5>Your cash, anytime, anywhere</h5>
+                  <p>Easy accessibility to your cash using our network of over 1000 ATMs</p>
+                </div>
+                <div class="col-lg-4 py-3 wow fadeInUp">
+                  <div class="display-3"><span class="mai-gift"></span></div>
+                  <h5>Rewarding Bonus Points</h5>
+                  <p>You'll be rewarded with BONUS points for each 1 EGP you spend, to be used at any of our partner merchants</p>
+                </div>
+                <div class="col-lg-4 py-3 wow fadeInUp">
+                  <div class="display-3"><span class="mai-cloud-done"></span></div>
+                  <h5>Secure transactions</h5>
+                  <p>High security is guaranteed through SMS alerts on transactions, monthly statements, personal PINs and secure e-payment</p>
+                </div>
+              </div>
+            </div> <!-- .container -->
+          </div> <!-- .page-section -->
+
+          <div class="page-section">
+            <div class="container">
+                <div class="display-3 text-lg-center"><span class="mai-cash-outline"></span></div>
+              <div class="text-center wow fadeInUp">
+                <h2 class="title-section">Fees & Limits <span class="marked"></span> </h2>
+                <div class="divider mx-auto"></div>
+              </div>
+        
+              <table style="width: 100%; border-collapse: collapse; border: none;">
+                <tr>
+                  <td style="border-bottom: 1px solid #000000;"> <h5>Item</h5></td>
+                  <td style="border-bottom: 1px solid #000000; "><h5>Fees</h5></td>
+
+                </tr>
+
+                <tr style="font-family: Arial, sans-serif; font-size: 16px; ">
+                    <td>Issuance fees</td>
+                    <td>EGP 50</td>
+                  </tr>
+                  
+
+                  <tr style="font-family: Arial, sans-serif; font-size: 16px; ">
+                  <td>Renewal and Annual fees</td>
+                  <td>EGP 50</td>
+                </tr>
+
+                <tr style="font-family: Arial, sans-serif; font-size: 16px; ">
+                    <td>Cash Withdrawal fees from SecureBank ATMs</td>
+                    <td>Free</td>
+                  </tr>
+
+                  <tr style="font-family: Arial, sans-serif; font-size: 16px; ">
+                    <td>Cash Withdrawal fees from other domestic ATMs</td>
+                    <td>EGP 5</td>
+                  </tr>
+
+                  <tr style="font-family: Arial, sans-serif; font-size: 16px; ">
+                    <td>Cash Withdrawal fees from international ATMs</td>
+                    <td>10 %</td>
+                  </tr>
+
+                  <tr style="font-family: Arial, sans-serif; font-size: 16px; ">
+                    <td>Daily limit on cash withdrawal</td>
+                    <td>EGP 20,000 per day with maximum EGP 7,000 per transaction</td>
+                  </tr>
+
+                  <tr style="font-family: Arial, sans-serif; font-size: 16px; ">
+                    <td>Daily purchase limit </td>
+                    <td>EGP 100,000 </td>
+                  </tr>
+
+              </table>
+
+            </div> <!-- .container -->
+          </div> <!-- .page-section -->
+
+              
+          </body>
+          </html>
+  </body>

@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta name="copyright" content="MACode ID, https://macodeid.com">
+
+  <title>Account Application Form</title>
+
+  <link rel="stylesheet" href="../assets/vendor/animate/animate.css">
+
+  <link rel="stylesheet" href="../assets/css/bootstrap.css">
+
+  <link rel="stylesheet" href="../assets/css/maicons.css">
+
+  <link rel="stylesheet" href="../assets/vendor/owl-carousel/css/owl.carousel.css">
+
+  <link rel="stylesheet" href="../assets/css/theme.css">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light navbar-float">
+        <div class="container">
+          <a href="index.html" class="navbar-brand">
+            <style>
+                .logo-image {
+                max-width: 100px;
+                max-height: 100px;
+                }
+    
+            </style>
+            <img src="C:\Users\Nathalie Ashraf\Music\FinalMS3\assets\img\logo.png" alt="Logo" class="logo-image">
+          </a>
+  
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <div class="navbar-collapse collapse" id="navbarContent">
+            <ul class="navbar-nav ml-lg-4 pt-3 pt-lg-0">
+              <li class="nav-item active">
+                <a href="user-home.html" class="nav-link">Home</a>
+              </li>
+              <!-- <li class="nav-item">
+                <a href="about.html" class="nav-link">About Us</a>
+              </li> -->
+              <li class="nav-item">
+                <a href="services.html" class="nav-link">Notifications</a>
+              </li>
+            </ul>
+  
+            <div class="ml-auto">
+              <a href="index.html" class="btn btn-outline rounded-pill">Sign Out</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+<div class="page-section border-top">
+  
+    <div class="container">
+        <div class="text-center wow fadeInUp">
+            <h2 class="title-section" style="margin-top: 20px;">Account Application Form</h2>
+            <div class="divider mx-auto"></div>
+          </div>
+          
+          
+            <div class="container">
+
+              <hr>
+              
+
+              <form id="app-form" action="">
+              <fieldset class="sub-container" id="basic-details">
+                <style>
+                  .select{
+                      padding: 8px 12px;
+                      color: #333333;
+                      background-color: #eeeeee;
+                      border: 1px solid #dddddd;
+                      cursor: pointer;
+                  }
+
+                  .select:focus,
+                  .select:hover{
+                      outline: none;
+                      border: 1px solid #bbbbbb;
+                  }
+
+                  .input {
+                      border: none;
+                      border-bottom: 1px solid #D1D1D4;
+                      background: none;
+                      padding: 6px;
+                      padding-left: 20px;
+                      font-weight: 2;
+                      width: 75%;
+                      transition: .2s;
+                    }
+              </style>
+                <h4 class="sub-heading" style="margin-top: 20px;" >Basic Details</h4>
+                <hr>
+                
+                
+                  <label for="dropdown" class="standard-label" style="color:#603FEF ;font-weight:500;">
+                    Title<span class="required">*&nbsp&nbsp</span>
+                    <br>
+                    <select  id="dropdown" class="select" required>
+                      <option value="select" disabled selected>Select Title</option>
+                      <option value="Mr">Mr</option>
+                      <option value="Mrs">Mrs</option>
+                      <option value="Miss">Miss</option>
+                      <option value="Ms">Ms</option>
+                      <option value="Dr">Dr</option>
+                      <option value="Prof">Prof</option>
+                    </select>
+                  </label>
+                  <br>
+
+                  <label for="National-id" class="standard-label" style="color:#603FEF ;font-weight:500;">
+                    National ID<span class="required">*</span>
+                    <input class="input" type="nationalid" id="nationalid" name="nationalid" pattern='^\+?\d{10,12}' placeholder="Example: 30201010107642" required>
+                  </label>
+                  <br>
+
+                  <label for="firstname" class="standard-label" style="color:#603FEF ;font-weight:500;">
+                    First Name<span class="required">*</span>
+                    <input class="input" name="firstname" id="firstname" type="text" placeholder="First name..." required>
+                  </label>
+                  <br>
+
+                  <label for="middlenames" class="standard-label" style="color:#603FEF ;font-weight:500;">
+                    Middle Names 
+                    <input class="input" name="middlename" id="middlename" type="text" placeholder="Middle names...">
+                  </label>
+                  <br>
+
+                  <label for="lastname" class="standard-label" style="color:#603FEF ;font-weight:500;">
+                    Last Name<span class="required">*</span>
+                    <input class="input" name="lastname" id="lastname" type="text" placeholder="Last name..." required>
+                  </label>
+                  <br>
+
+                  <label for="phone-number" class="standard-label" style="color:#603FEF ;font-weight:500;">
+                    Phone Number<span class="required">*</span>
+                    <input class="input" type="tel" id="phone" name="phone" pattern='^\+?\d{10,12}' placeholder="Example: 01925999111" required>
+                  </label>
+                  <br>
+
+                  <label for="email-address" class="standard-label" style="color:#603FEF ;font-weight:500;">
+                    Email<span class="required">*</span>
+                    <br>
+                    <input class="input" id="email-address" type="email" placeholder="Your email address..." required>
+                  </label>
+                  <br>
+
+                  <label for="occupation" class="standard-label" style="color:#603FEF ;font-weight:500;">
+                    Occupation<span class="required">*</span>
+                    <input class="input" id="occupation" type="email" placeholder="Your occupation..." required>
+                  </label>
+                  <br>
+
+                  <label for="DOB" class="standard-label" style="color:#603FEF ;font-weight:500;">
+                    Date of Birth<span class="required">*</span>
+                    <input class="input" type="date" name="DOB" id="DOB" required>
+                  </label>
+                  <br>
+
+                  <label for="accounttype" class="standard-label" style="color:#603FEF ;font-weight:500;">
+                    What type of account are you applying for?<span class="required">*</span>
+                    <br>
+                    <select  id="account-select" class="select" required>
+                      <option value="select" disabled selected>Choose Account</option>
+                      <option value="basic-current">Savings Account</option>
+                      <option value="premium-current">Checking Account</option>
+                      <option value="instant-saver">Business Account</option>
+                      
+                    </select>
+                  </label>
+                  <br>
+                  <br>
+
+                  <!-- <button type="button" id="show-address">Continue</button> -->
+                </fieldset>
+                
+                <fieldset class="sub-container" id="address-history">
+                  <h4 class="sub-heading"> Current Address </h4>
+                  <hr>
+                 
+                  <div id="current-address">
+
+                    <label for="line1" class="standard-label" style="color:#603FEF ;font-weight:500;">
+                      Address line 1<span class="required">*</span>
+                      <input class="input" type="text" placeholder="Building No, Street, City..." required>
+                    </label>
+                    <br>
+
+                    <label for="line2" class="standard-label" style="color:#603FEF ;font-weight:500;">
+                      Address line 2
+                      <input class="input" type="text"  placeholder="Building No, Street, City...">
+                    </label>
+                    <br>
+
+                    <label for="town-city" class="standard-label" style="color:#603FEF ;font-weight:500;">
+                      City, Country<span class="required">*</span>
+                      <input class="input" type="text"  placeholder="Cairo, Egypt..." required>
+                    </label>
+                    <br>
+
+                    <!-- <label for="country" class="standard-label" style="color:#603FEF ;font-weight:500;">
+                      Country
+                      <input class="input" type="text"  placeholder="Egypt...">
+                    </label>
+                    <br> -->
+
+                    <label for="postcode" class="standard-label" style="color:#603FEF ;font-weight:500;">
+                      Post Code<span class="required">*</span>
+                      <input class="input" type="text" maxlength="8"  placeholder="1234..." required>
+                    </label>
+                    <br>
+                    <br>
+                  
+                </fieldset>
+          
+
+                
+                <fieldset class="sub-container" id="your-consent">
+                  <h4 class="sub-heading">Your Consent</h4>
+                  <hr>
+                  <label class="standard-label" id="credit-search" for="credit-search">
+                    Tick the box below to allow the bank to use the details you have provided to conduct a credit search if necessary.
+                    <br>
+                  <input type="checkbox" id="credit-click" name="credit-search"><br>
+                  </label>
+                  <label class="standard-label" for="info-request" id="info-request">
+                    Tick the box below to allow the bank to contact you via email if further information is needed to progress your application.
+                    <br>
+                    <input type="checkbox" id="info-click" name="info-request"><br>
+                  </label>
+                  <style>
+                    /* Container for centering the button */
+                    .center-container {
+                      display: flex;
+                      justify-content: center;
+                      align-items: center;
+                      height: 8vh; /* Adjust the height as needed */
+                    }
+                  </style>
+                  
+                  <style>
+                    .success-message {
+                      display: none;
+                      background: #f3f3f3;
+                      padding: 10px;
+                      text-align: center;
+                      margin-top: 10px;
+                    }
+                  
+                    #submit-checkbox:checked ~ .success-message {
+                      display: block;
+                    }
+                  </style>
+                  
+                  <div class="center-container">
+                    <label for="submit-checkbox" class="btn btn-primary btn-split ml-2">Submit Application <div class="fab"><span class="mai-send"></span></div></label>
+                    <input type="checkbox" id="submit-checkbox" style="display: none;">
+
+                    <br>
+                    <div class="success-message">Your application has been submitted successfully.</div>
+                  </div>
+                  
+
+               
+
+
+                </fieldset>
+              </form>
+            </div>
+          </body>
+          </html>
+  </body>
+  

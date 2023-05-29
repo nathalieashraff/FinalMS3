@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta name="copyright" content="MACode ID, https://macodeid.com">
+
+  <title>Credit Card</title>
+
+  <link rel="stylesheet" href="../assets/vendor/animate/animate.css">
+
+  <link rel="stylesheet" href="../assets/css/bootstrap.css">
+
+  <link rel="stylesheet" href="../assets/css/maicons.css">
+
+  <link rel="stylesheet" href="../assets/vendor/owl-carousel/css/owl.carousel.css">
+
+  <link rel="stylesheet" href="../assets/css/theme.css">
+
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light navbar-float">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">
+        <style>
+            .logo-image {
+            max-width: 100px;
+            max-height: 100px;
+            }
+
+        </style>
+        <img src="C:\Users\Nathalie Ashraf\Music\FinalMS3\assets\img\logo.png" alt="Logo" class="logo-image">
+      </a>
+  
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="navbar-collapse collapse" id="navbarContent">
+        <ul class="navbar-nav ml-lg-4 pt-3 pt-lg-0">
+          <li class="nav-item active">
+            <a href="user-home.html" class="nav-link">Home</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a href="about.html" class="nav-link">About Us</a>
+          </li> -->
+          <li class="nav-item">
+            <a href="services.html" class="nav-link">Notifications</a>
+          </li>
+        </ul>
+  
+        <div class="ml-auto">
+          <a href="index.html" class="btn btn-outline rounded-pill">Sign Out</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+<div class="page-section border-top">
+  
+    <div class="container">
+        <div class="text-center wow fadeInUp">
+            <h2 class="title-section" style="margin-top: 20px;"> Credit Card Request</h2>
+            <div class="divider mx-auto"></div>
+          </div>
+          
+          <div class="container">
+            <form id="app-form" action="">
+                <style>
+                    .select{
+                        padding: 8px 12px;
+                        color: #333333;
+                        background-color: #eeeeee;
+                        border: 1px solid #dddddd;
+                        cursor: pointer;
+                    }
+
+                    .select:focus,
+                    .select:hover{
+                        outline: none;
+                        border: 1px solid #bbbbbb;
+                    }
+                </style>
+                <label for="accounttype" class="standard-label" style="color:#603FEF ;font-weight:500;">
+                  Select Account Number<span class="required">*</span>
+                  
+                  <select  id="account-select" class="select" required>
+                      <option  disabled selected>  Select Account Number</option>
+                    <option value="select" >1008546711</option>
+                    <option value="basic-current">100768904</option>
+                    <option value="premium-current">2098513311 </option>
+                    
+                    
+                  </select>
+                </label>
+                <br>
+                <br>
+
+                <label for="accounttype" class="standard-label" style="color:#603FEF ;font-weight:500;">
+                  Card Type<span class="required">*</span>
+                  
+                  <select  id="account-select" class="select" required>
+                      <option disabled selected> Card Type</option>
+                    <option value="select">Visa</option>
+                    <option value="basic-current">MasterCard</option>
+                    <option value="premium-current">Meeza</option>
+                    
+                    
+                  </select>
+                </label>
+                <br>
+                <br>
+
+              
+              
+                <style>
+                  /* Container for centering the button */
+                  .center-container {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 8vh; /* Adjust the height as needed */
+                  }
+                </style>
+                
+                <style>
+                  .success-message {
+                    display: none;
+                    background: #f3f3f3;
+                    padding: 10px;
+                    text-align: center;
+                    margin-top: 10px;
+                  }
+                
+                  #submit-checkbox:checked ~ .success-message {
+                    display: block;
+                  }
+                </style>
+                
+                <div class="center-container">
+                  <label for="submit-checkbox" class="btn btn-primary btn-split ml-2">Submit <div class="fab"><span class="mai-send"></span></div></label>
+                  <input type="checkbox" id="submit-checkbox" style="display: none;">
+
+                  <br>
+                  <div class="success-message">Your request has been submitted successfully! <br> Confirmation will be sent within 24 hours.</div>
+                </div>
+
+            </form>
+          </div>
+
+          <hr> 
+
+          <div class="page-section">
+            <div class="container">
+              <div class="text-center wow fadeInUp">
+                <h2 class="title-section"> <span class="marked">Luxury</span> at your fingertips</h2>
+                <div class="divider mx-auto"></div>
+              </div>
+        
+              <div class="row mt-5 text-center">
+                <div class="col-lg-4 py-3 wow fadeInUp">
+                  <div class="display-3"><span class="mai-cash-outline"></span></div>
+                  <h5>Treat yourself with a generous limit </h5>
+                  <p> The minimum card limit is EGP 30,000</p>
+                </div>
+                <div class="col-lg-4 py-3 wow fadeInUp">
+                  <div class="display-3"><span class="mai-time"></span></div>
+                  <h5>No pressure settlement</h5>
+                  <p>
+                    Take advantage of an interest-free period of up to 55 days per purchase, and cash withdrawal of up to 100% of the credit limit</p>
+                </div>
+                <div class="col-lg-4 py-3 wow fadeInUp">
+                  <div class="display-3"><span class="mai-card-outline"></span></div>
+                  <h5>Free Supplementary Cards</h5>
+                  <p>Issue up to four free supplementary cards for your family members</p>
+                </div>
+              </div>
+            </div> <!-- .container -->
+          </div> <!-- .page-section -->
+
+
+
+          <div class="page-section border-top">
+            <div class="container">
+                <div class="text-center wow fadeInUp">
+                    <h2 class="title-section" style="margin-top: 20px;">Our dedicated team is comitted to meeting your needs</h2>
+                    <div class="divider mx-auto"></div>
+                  </div>
+                  
+              
+              <div class="row justify-content-center">
+                <div class="col-12 col-lg-auto py-3 wow fadeInLeft">
+                  <div class="card-pricing">
+                    <div class="header">
+                      <div class="price-icon"><span class="mai-earth"></span></div>
+                      <div class="price-title">Online</div>
+                    </div>
+                    <div class="body py-3">
+                      <div class="price-tag">
+                        <!-- <span class="currency">$</span> -->
+                        <h2 class="display-4"></h2>
+                        <span class="period"></span>
+                      </div>
+                      <div class="price-info">
+                        <p>Reach us out on social media or send us an email and you will get assistance shortly</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+        
+                <div class="col-12 col-lg-auto py-3 wow fadeInUp">
+                  <div class="card-pricing">
+                    <div class="header">
+                      <div class="price-icon"><span class="mai-call"></span></div>
+                      <div class="price-title">On the phone</div>
+                    </div>
+                    <div class="body py-3">
+                      <div class="price-tag">
+                        <span class="currency"></span>
+                        <h2 class="display-4"></h2>
+                        <span class="period"></span>
+                      </div>
+                      <div class="price-info">
+                        <p>Fur support, including emergencies such as cards closure or immediate critical feedback.</p>
+                      </div>
+                    </div>
+        
+                  </div>
+                </div>
+        
+                <div class="col-12 col-lg-auto py-3 wow fadeInRight">
+                  <div class="card-pricing">
+                    <div class="header">
+                      <div class="price-icon"><span class="mai-business"></span></div>
+                      <style>
+                        .price-title {
+                          color: #603FEF;
+                        }
+                      </style>
+                      
+                      <div class="price-title">In branch</div>
+                      
+                    </div>
+                    <div class="body py-3">
+                      <div class="price-tag">
+                        <span class="currency"></span>
+                        <h2 class="display-4"></h2>
+                        <span class="period"></span>
+                      </div>
+                      <div class="price-info">
+                        <p>Our trained team of tellers and relationship manafers are here to help ypu get the serviceyou need.</p>
+                      </div>
+                    </div>
+        
+                  </div>
+                </div>
+                
+              </div>
+            </div> <!-- .container -->
+          </div> <!-- .page-section --> 
+
+              
+          </body>
+          </html>
+  </body>
