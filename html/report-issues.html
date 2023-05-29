@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta name="copyright" content="MACode ID, https://macodeid.com">
+
+  <title>Secure Bank</title>
+
+  <link rel="stylesheet" href="../assets/vendor/animate/animate.css">
+
+  <link rel="stylesheet" href="../assets/css/bootstrap.css">
+
+  <link rel="stylesheet" href="../assets/css/maicons.css">
+
+  <link rel="stylesheet" href="../assets/vendor/owl-carousel/css/owl.carousel.css">
+
+  <link rel="stylesheet" href="../assets/css/theme.css">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light navbar-float">
+        <div class="container">
+            <style>
+                .logo-image {
+                max-width: 100px;
+                max-height: 100px;
+                }
+            </style>
+                <img src="C:\Users\fafab\Pictures\Camera Roll\FinalMS3\assets\img\6b2ab76a-beac-4171-8e83-4f57ce804890.jpg" alt="Logo" class="logo-image">
+              </a>
+  
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <div class="navbar-collapse collapse" id="navbarContent">
+            <ul class="navbar-nav ml-lg-4 pt-3 pt-lg-0">
+              <li class="nav-item active">
+                <a href="user-home.html" class="nav-link">Home</a>
+              </li>
+              
+              <li class="nav-item">
+                <a href="services.html" class="nav-link">Notifications</a>
+              </li>
+            </ul>
+  
+            <div class="ml-auto">
+              <a href="index.html" class="btn btn-outline rounded-pill">Sign Out</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+<div class="page-section border-top">
+    <div class="container">
+        <div class="text-center wow fadeInUp">
+            <h2 class="title-section" style="margin-top: 20px;">Report Issues</h2>
+            <div class="divider mx-auto"></div>
+          </div>
+          
+      
+      <div class="row justify-content-center">
+        <div class="col-12 col-lg-auto py-3 wow fadeInLeft">
+          <div class="card-pricing">
+            <div class="header">
+              <div class="price-icon"><span class="mai-people"></span></div>
+              <div class="price-title">Report loss, theft or damage of a card</div>
+            </div>
+            <div class="body py-3">
+              <div class="price-tag">
+                <!-- <span class="currency">$</span> -->
+                <h2 class="display-4"></h2>
+                <span class="period"></span>
+              </div>
+              <div class="price-info">
+                <p>It is crucial to report the loss, damage, or theft of
+                     a card as soon as possible to minimize the risk of fraudulent
+                      transactions.</p>
+              </div>
+              <div class="footer">
+                <a href="#" class="btn btn-primary btn-split ml-2" id="replacementBtn">
+                  Apply for replacement <div class="fab"><span class="mai-enter"></span></div>
+                </a>
+              </div>
+              
+              <script>
+                document.getElementById('replacementBtn').addEventListener('click', function() {
+                  alert('Your replacement request has been successfully registered.');
+                });
+              </script>
+            </div>
+            <!-- <div class="footer">
+              <a href="#" class="btn btn-outline rounded-pill">Choose Plan</a>
+            </div> -->
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-auto py-3 wow fadeInUp">
+          <div class="card-pricing">
+            <div class="header">
+              <!-- <div class="price-labled">Best</div> -->
+              <div class="price-icon"><span class="mai-cash"></span></div>
+              <div class="price-title">Report Technical Issues</div>
+            </div>
+            <div class="body py-3">
+              <div class="price-tag">
+                <span class="currency"></span>
+                <h2 class="display-4"></h2>
+                <span class="period"></span>
+              </div>
+              <div class="price-info">
+                <p>Users may encounter technical issues such as website
+                     errors, slow page loading, broken links, or
+                      unresponsive features.</p>
+              </div>
+            </div>
+            <!-- <div class="footer">
+              <a href="#" class="btn btn-outline rounded-pill">Choose Plan</a>
+            </div> -->
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-auto py-3 wow fadeInRight">
+          <div class="card-pricing">
+            <div class="header">
+              <div class="price-icon"><span class="mai-business"></span></div>
+              <style>
+                .price-title {
+                  color: #603FEF;
+                  /* Additional styles can be applied here */
+                }
+              </style>
+              
+              <div class="price-title">Report transaction Issues</div>
+              
+            </div>
+            <div class="body py-3">
+              <div class="price-tag">
+                <span class="currency"></span>
+                <h2 class="display-4"></h2>
+                <span class="period"></span>
+              </div>
+              <div class="price-info">
+                <p>Users may experience problems while performing transactions, 
+                    such as errors during fund transfers, bill payments, 
+                    or failed transactions without proper error messages.</p>
+              </div>
+            </div>
+            <!-- <div class="footer">
+              <a href="#" class="btn btn-outline rounded-pill">Choose Plan</a>
+            </div> -->
+          </div>
+        </div>
+        
+      </div>
+    </div> <!-- .container -->
+  </div> <!-- .page-section -->
+  <style>
+    /* Container for centering the button */
+    
+    
+    .popup {
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                background-color: #f9f9f9;
+                padding: 20px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                text-align: center;
+                display: none;
+              }
+              .popup p {
+                margin-bottom: 10px;
+              }
+              .center-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.issue-input {
+  width: 300px; /* Adjust the width as needed */
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+label {
+  font-size: 20px; /* Adjust the font size as needed */
+}
+
+
+
+
+
+
+
+  </style>
+  
+  <div class="center-container">
+        <label for="issue-input">Write your issue Here!</label>
+        <input type="text" id="issue-input" class="issue-input" placeholder="Enter your issue">
+    <a href="#" class="btn btn-primary btn-split ml-2"   onclick="showPopup()">Report Issue <div class="fab"><span class="mai-open"></span></div></a>
+  </div>
+  <div id="popup" class="popup">
+    <p id="balance-text"></p>
+    <button onclick="hidePopup()">Close</button>
+  </div>
+
+  <script>
+    function showPopup(balance) {
+      var popup = document.getElementById('popup');
+      var balanceText = document.getElementById('balance-text');
+      balanceText.innerText = "your issue has been sent and will be handled shortly";
+      popup.style.display = 'block';
+    }
+
+    function hidePopup() {
+      var popup = document.getElementById('popup');
+      popup.style.display = 'none';
+    }
+  </script>
+  </body>
